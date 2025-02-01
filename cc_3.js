@@ -14,3 +14,17 @@ let totalOrders = orders.reduce((total, amount) => total + amount, 0); // calcul
 
 console.log(orders);
 console.log("Total Orders:", (totalOrders))
+
+// Task 3 - Employee Performance Tracking
+
+let employee = {
+    name: "Rudy Wood", // employee's name is Rudy Wood
+    role: "Manager", // employee is a manager
+    performanceScore: "3", // employee's performance score is a 3 out of 5
+    isActive: true // employee is active
+};
+
+employee.performanceScore = 2; // updates the employees performance score to a 2 instead of a 3
+employee.promotionEligible = false; // the employee is not elligible for a promotion
+
+console.log(employee) // updates the employee object
