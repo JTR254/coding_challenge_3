@@ -28,3 +28,31 @@ employee.performanceScore = 2; // updates the employees performance score to a 2
 employee.promotionEligible = false; // the employee is not elligible for a promotion
 
 console.log(employee) // updates the employee object
+
+// Task 4 - Customer Feedback Records
+
+let feedback = [
+    {
+        customerName: "Joseph Willock", // customer's name is Joseph Willock
+        feedbackText: "The product is fantastic quality!",
+        rating: 4.5                    // customer rates the product 4.5 out of 5
+    },
+    {
+        customerName: "Maggie Smith", // customer's name is Maggie Smith
+        feedbackText: "It took forever to ship.", 
+        rating: 2                    // customer rates the product 2 out of 5
+    },
+    {
+        customerName: "Brittany Freeman", // customer's name is Brittany Freeman
+        feedbackText: "Works great!", 
+        rating: 5                        // customer rates the product 5 out of 5
+    }
+];
+
+feedback.push ({
+    customerName: "Jason Bates", // customer's name is Jason Bates
+    feedbackText: "I love this! I wish it got here quicker though.",
+    rating: 3                   // customer rates the product 3 out of 5
+})  // an object is added to the array
+
+console.log(feedback)
