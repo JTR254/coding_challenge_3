@@ -56,3 +56,17 @@ feedback.push ({
 })  // an object is added to the array
 
 console.log(feedback)
+
+// Task 5 - Inventory Management System
+
+let inventory = {
+        itemName: "Salt Shaker" , // the name of the item is Salt Shaker
+        stockCount: 1500, // there are 1500 Salt Shakers left in stock
+        price: 8, // the price of the Salt Shaker is $8
+        calculateTotalValue: function() {
+            return this.stockCount * this.price;
+        }
+}; // this function will multiply the amount in stock and the price
+
+console.log (inventory)
+console.log (`Total Value of ${inventory.itemName}: $${inventory.calculateTotalValue()}`); // Output: Total Value of Salt Shaker: $12000
